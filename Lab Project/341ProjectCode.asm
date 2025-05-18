@@ -213,7 +213,7 @@ ValidJudge:
     CALL DisplayMsg
 
     JMP VoteJudge
-;-------------------------------------feature3---------------------------------
+
 ; Voting section for spectators
 VoteSpectator:
     MOV BYTE PTR [SI], 0  ; Mark user as voted
@@ -295,7 +295,7 @@ VoteJudge:
     CALL DisplayMsg
     JMP VoteJudge
 
-;-------------------------------------feature4---------------------------------
+
 ; Register spectator vote for contestant 1 (weight 1)
 Vote1Spectator:
     INC voteCount1          ; Increment contestant 1 votes
