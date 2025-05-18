@@ -1,1 +1,44 @@
-hh
+Digital Judging Platform for Talent-Based Competitions
+
+
+1. Role-Based Login System:
+The system will support separate logins for different roles like (Contestant,Judge,Supporters)
+
+
+
+2. Voting Integrity: 
+Each user is allowed to vote only once during the contest.
+The feature will strictly prevent duplicate or multiple votes from the same user.
+Proper validation will be done to ensure one vote per user.
+
+3. Vote Casting:
+ Every vote will be recorded specifically for the chosen contestant.
+The feature will maintain individual vote counts for each contestant.
+
+4. Vote Source Tracking Or Weighted vote:
+Votes will be tracked based on the voter's role (Supporters, Contestant, or Judge).
+Each type of voter will have a different vote weight. For example:
+Spectator: 1 point
+Contestant: 2 points
+Judge: 3 points
+
+
+5. Admin Control Panel:
+The Admin will have full access to:
+Monitor all ongoing activities
+View detailed vote reports for each contestant
+Manage users and roles
+
+6. Winner Dashboard:
+After the voting ends, the system will:
+Calculate total weighted votes for each contestant
+Compare votes among all contestants
+Identify and display the winner
+Show a detailed breakdown of votes received from each user type (Supporters, Contestants, Judges)
+
+
+
+
+
+Project Done by 
+Sujit, Prithwi, Chaman
